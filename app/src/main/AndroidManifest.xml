@@ -15,11 +15,20 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+        </activity>
+        <!--Obligo a que la app arranque en el IMCActivity -->
+        <activity
+            android:name=".IMCActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity> <!-- Clase ResultIMCActivity -->
+        <activity
+            android:name="ResultIMCActivity"
+            android:exported="true">
         </activity>
     </application>
 
