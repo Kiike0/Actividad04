@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         buttonCalculadora1 = findViewById<Button>(R.id.Calculadora1)
         buttonCalculadora1.setOnClickListener {
 
-            val intent = Intent(this, Calculadora2::class.java)
+            val intent = Intent(this, Calculadora1::class.java)
             startActivity(intent)
 
         }
