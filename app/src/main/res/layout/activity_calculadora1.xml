@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Calculadora1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/dark_gray"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146"
+        tools:text="@string/textPantalla" />
+
+    <LinearLayout
+        android:id="@+id/linLayout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView">
+
+        <Button
+            android:id="@+id/buttondelete"
+            android:layout_width="170dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/txt_btnDelete"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonce"
+            android:layout_width="170dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/txt_btnce"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linLayout0">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn7"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn8"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn9"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonplus"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btnplus"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linLayout1">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn4"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn5"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn6"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonmenos"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btnmenos"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linLayout2">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn1"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonmultiplicar"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btnMultiplicar"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linLayout3">
+
+        <Button
+            android:id="@+id/buttondividir"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btndividir"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btn0"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttondec"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/botones"
+            android:text="@string/txt_btndec"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/buttonigual"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/txt_btnigual"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

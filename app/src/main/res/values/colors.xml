@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF521D</color>
+    <color name="red">#D52222</color>
+    <color name="botones">#0090FF</color>
+    <color name="green">#0FB647</color>
+    <color name="my_light_primary">#FF5733</color>
+    <color name="my_dark_primary">#000000</color>
+    <color name="my_dark_background">#333333</color>
+    <color name="dark_gray">#576875</color>
 </resources>

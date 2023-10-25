@@ -4,15 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <Button
+        android:id="@+id/IMCCalc"
+        android:layout_width="290dp"
+        android:layout_height="180dp"
+        android:text="@string/calcular_el_imc"
+        android:textSize="32sp"
+        android:backgroundTint="@color/orange"
+        app:cornerRadius=" "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
 
+    <LinearLayout
+        android:id="@+id/linLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IMCCalc">
+
+        <Button
+            android:id="@+id/Calculadora1"
+            android:layout_width="290dp"
+            android:layout_height="120dp"
+            android:text="@string/calculadora_1"
+            android:textSize="32sp"
+            android:backgroundTint="@color/red"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="128dp"
+            app:cornerRadius=" " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linLayout1">
+
+        <Button
+            android:id="@+id/Calculadora2"
+            android:layout_width="290dp"
+            android:layout_height="120dp"
+            android:text="@string/calculadora_2"
+            android:textSize="32sp"
+            android:backgroundTint="@color/red"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="128dp"
+            app:cornerRadius=" " />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
