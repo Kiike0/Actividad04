@@ -252,6 +252,7 @@ class Calculadora1 : AppCompatActivity() {
 
     /**
      * Mostramos el mensaje TOAST (emergente) si cumple la condición que le hemos pasado antes
+     * @param mensaje de error que le pasamos por parámetro
      */
     private fun mostrarmensaje(mensaje : String){
         Toast.makeText(

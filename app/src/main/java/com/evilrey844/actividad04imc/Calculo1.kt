@@ -12,7 +12,7 @@ class Calculo1 {
 
     /**
      * Llamo a todos los métodos según el char que lea pasado con un when
-     * @param --> ponerlo en los métodos
+     * operacion --> ponerlo en los métodos
      */
     fun calcular() {
         when (operacion) {
@@ -61,9 +61,12 @@ class Calculo1 {
         }
     }
 
+    /**
+     * Este método determina que numero se utilizará en la operación, antes de pulsar el operador
+     * También si es (10) el número que se le pasa equivale al decimal
+     * @param le pasamos un entero para saber de qué número se trata
+     */
     fun setDigito(numero: Int){
-        //Si es menor que 10, se trata de un dígito del 0 al 9.
-        //Sino, es el punto decimal.
         if (numero < 10){
             if (this.reseteoPantalla)
                 this.num1 += numero.toString()
